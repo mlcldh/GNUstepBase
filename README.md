@@ -1,9 +1,11 @@
 # GNUstepBase
-GNUstep是GNU计划的项目之一，它将Cocoa的OC库重新开源实现了一遍。
+[GNUstep](https://mlcldh.github.io/iOS/GNUstep)是GNU计划的项目之一，它将Cocoa的OC库重新开源实现了一遍。
 
-源码地址：[http://www.gnustep.org/resources/downloads.php](http://www.gnustep.org/resources/downloads.php)
+官网源码地址：[http://www.gnustep.org/resources/downloads.php](http://www.gnustep.org/resources/downloads.php)
 
-代码下载地址：http://ftpmain.gnustep.org/pub/gnustep/core/gnustep-base-1.28.0.tar.gz
+官网代码下载地址：http://ftpmain.gnustep.org/pub/gnustep/core/gnustep-base-1.28.0.tar.gz
+
+GitHub代码地址：[https://github.com/gnustep/libs-base](https://github.com/gnustep/libs-base)
 
 虽然GNUstep不是苹果官方源码，但还是具有一定的参考价值。
 
@@ -11,5 +13,4 @@ GNUstep是GNU计划的项目之一，它将Cocoa的OC库重新开源实现了一
 
 苹果[objc4](https://opensource.apple.com/tarballs/objc4/)公开的Foundation框架中只有NSObject的实现。假如我们想要查看NSString，NSArray，NSRunLoop，NSThread等Foundation这些类，是没有源码的。虽然通过汇编语言，一步步的跟踪也可以查看。但是汇编太过于晦涩难懂，所以这里推荐查看GNUstep里对Foundation的实现。
 
-该仓库涵盖了**GNUstep Base**的多个版本。以后我如果发现了新版本的话，会再次更新。
 
